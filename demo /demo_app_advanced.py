@@ -104,8 +104,10 @@ def load_all_models():
 @st.cache_data
 def load_test_set_info():
     data_path = Path("./data/FSC147")
+    image_dir = data_path / "images_384_VarV2"
     with open(data_path / "test.txt", "r") as f:
-        test_images = [line.strip() for line in f.readlines()]
+        all_test_images = [line.strip() for line in f.readlines()]
+    test_images = [img for img in all_test_images if (image_dir / img).exists()]
     class_dict = {}
     with open(data_path / "ImageClasses_FSC147.txt", "r") as f:
         for line in f:

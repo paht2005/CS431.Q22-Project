@@ -10,10 +10,12 @@ import clip
 from ultralytics import YOLOWorld
 import time
 import inflect
+import platform
 
 # Fix pathlib for Windows
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+if platform.system() == "Windows":
+    temp = pathlib.PosixPath
+    pathlib.PosixPath = pathlib.WindowsPath
 
 # Import project modules
 import models_mae_cross

@@ -1,5 +1,5 @@
 ### Zero-shot Object Counting with Good Exemplars
-**Enhanced with Rich Prompts and YOLO-World — CS431.Q22 (Deep Learning and Applications, UIT)**
+**Enhanced with Rich Prompts and YOLO-World — CS338.Q21 (Pattern Recognition, UIT)**
 
 This folder contains the **main implementation** of the VA-Count model and the
 project-specific extensions:
@@ -28,7 +28,7 @@ All instructions below assume the current working directory is
 
 ## Project History
 
-This codebase was built from scratch for CS431.Q22 (Deep Learning and Applications,
+This codebase was built from scratch for CS338.Q21 (Pattern Recognition,
 UIT) as a re-implementation of the ECCV 2024 **VA-Count** paper, extended
 with two independent additions from the literature:
 
@@ -119,8 +119,8 @@ source-code/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/paht2005/CS431.Q22-Project.git
-cd CS431.Q22-Project
+git clone https://github.com/paht2005/CS338.Q21_Zero-shot-Object-Coutning-with-Good-Examplers.git
+cd CS338.Q21_Zero-shot-Object-Coutning-with-Good-Examplers
 ```
 
 2. **Create conda environment**
@@ -326,7 +326,7 @@ streamlit run demo_app_advanced.py
 ##  Citation
 
 If you build on this code, please cite the original VA-Count paper and
-acknowledge this CS431.Q22 fork:
+acknowledge this CS338.Q21 fork:
 
 ```bibtex
 @inproceedings{zhu2024zero,
@@ -344,13 +344,13 @@ This project is based on:
 - [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) - Exemplar detection
 - [MAE](https://github.com/facebookresearch/mae) - Vision Transformer backbone
 
-The CS431.Q22 implementation builds on these works to deliver the
+The CS338.Q21 implementation builds on these works to deliver the
 training, evaluation, exemplar-generation and demo pipeline described
 above. We are very grateful for all of these excellent works.
 
 ## Contact
 
-For questions about this CS431.Q22 project, please contact the team leader:
+For questions about this CS338.Q21 project, please contact the team leader:
 **Nguyen Cong Phat — `23521143@gm.uit.edu.vn`**.
 For questions about the original VA-Count paper, please refer to the
 authors of the upstream repository.
