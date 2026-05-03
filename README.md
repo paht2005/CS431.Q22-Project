@@ -98,13 +98,15 @@ YOLO-World weights) are hosted **outside Git** to keep the repository under GitH
 ## **Repository Structure**
 
 ```text
-cs431-zero-shot-object-counting-with-good-examplers/
+CS431.Q22-Project/
 ├── README.md                 # Main project documentation (this file)
 ├── Makefile                  # Top-level build/run shortcuts (make help)
 ├── LICENSE                   # MIT License
 ├── requirements.txt          # Root-level Python dependencies
 ├── env.template              # Environment variable template (.env)
 │
+├── demo/                     # Demo section
+|
 ├── code/                     # Main implementation
 │   ├── README.md
 │   └── source-code/          # VA-Count + Rich Prompt + YOLO-World
@@ -148,7 +150,7 @@ cs431-zero-shot-object-counting-with-good-examplers/
 │   ├── CONTRIBUTIONS.md       # Per-member contribution split
 │   ├── RESULTS.md             # Numerical results & provenance
 │   ├── report/                # LaTeX report → Report.pdf
-│   ├── cs338-slide/           # LaTeX presentation slides
+│   ├── slide/           # LaTeX presentation slides
 │   └── references/            # Reference materials
 │
 ├── images/                    # Images for GitHub (thumbnails, screenshots)

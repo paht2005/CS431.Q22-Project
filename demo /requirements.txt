@@ -1,0 +1,26 @@
+# Default install for the CS338.Q21 Zero-shot Object Counting project.
+# Works on macOS (CPU / MPS), Linux CPU, and CUDA >= 11.7. To reproduce the
+# exact CUDA 11.6 / torch 1.13.1 numbers reported in docs/report/Report.pdf,
+# use requirements-cuda116.txt instead.
+
+torch>=2.0,<3.0
+torchvision>=0.15
+numpy>=1.23,<2.0
+scipy>=1.10
+pandas>=1.5
+matplotlib>=3.6
+pillow>=9.3
+six>=1.16
+timm>=0.4.9
+imgaug>=0.4.0
+scikit-learn>=1.0
+transformers>=4.30
+opencv-python>=4.7
+streamlit>=1.30
+wandb
+tqdm
+inflect>=6.0.0
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+ultralytics>=8.0
+clip @ git+https://github.com/openai/CLIP.git
