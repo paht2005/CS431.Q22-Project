@@ -36,10 +36,14 @@
 The full written report is stored at: **[`docs/report/Report.pdf`](docs/report/Report.pdf)**.  
 Heavy artifacts (full checkpoints, raw `wandb` runs, full FSC147 dataset, GroundingDINO /
 YOLO-World weights) are hosted **outside Git** to keep the repository under GitHub's
-100 MB file limit. Once a permanent share link is available, paste it here:
+100 MB file limit. The shared folder below contains the large files that are intentionally
+ignored by `.gitignore` and therefore not stored in this repository:
 
-> **Full project artifacts (OneDrive):** _link to be added — see
-> `docs/report/Report.pdf` §4.1 for the list of files expected._
+> **Full project artifacts (OneDrive):**
+> https://nklod-my.sharepoint.com/:f:/g/personal/phatxinhchao_nklod_onmicrosoft_com/IgC7A_ShW5-4QrbObsbxxKPXAXWH044zAbHsUHiGBiaDTsk?e=AEX2jq
+>
+> This folder includes the full FSC147 dataset, checkpoints, raw `wandb` runs, and detector
+> weights referenced in [`docs/report/Report.pdf`](docs/report/Report.pdf) and omitted from Git.
 
 ---
 
@@ -571,18 +575,22 @@ demo latency, failure-case taxonomy, dataset / checkpoint provenance) is in
 ## References
 
 - [1] H. Zhu, S. Li, J. Yuan, Z. Yang, Y. Guo, W. Liu, X. Zhong, and S. He,  
-  “Expanding zero-shot object counting with rich prompts,” 2025.  
+  “Expanding zero-shot object counting with rich prompts,”  
+  arXiv preprint arXiv:2505.15398, 2025.  
   [Online]. Available: https://arxiv.org/abs/2505.15398
 - [2] H. Zhu, J. Yuan, Z. Yang, Y. Guo, Z. Wang, X. Zhong, and S. He,  
-  “Zero-shot object counting with good exemplars,” 2024.  
-  [Online]. Available: https://arxiv.org/abs/2407.04948
+  “Zero-shot object counting with good exemplars,”  
+  in *European Conference on Computer Vision (ECCV)*, 2024.  
+  [Online]. Available: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00812.pdf
 - [3] C. Liu, Y. Zhong, A. Zisserman, and W. Xie,  
-  “Countr: Transformer-based generalised visual counting,” 2022.  
-  [Online]. Available: https://arxiv.org/abs/2208.13721
+  “CounTR: Transformer-based generalised visual counting,”  
+  in *British Machine Vision Conference (BMVC)*, 2022.  
+  [Online]. Available: https://pdf-files.bmvc2022.org/0370.pdf
 - [4] T. Cheng, L. Song, Y. Ge, W. Liu, X. Wang, and Y. Shan,  
-  “Yolo-world: Real-time open-vocabulary object detection,” 2024.  
-  [Online]. Available: https://arxiv.org/abs/2401.17270
-
+  “YOLO-World: Real-time open-vocabulary object detection,”  
+  in *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2024.  
+  [Online]. Available: https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_YOLO-World_Real-Time_Open-Vocabulary_Object_Detection_CVPR_2024_paper.pdf
+  
 ---
 
 ## **Limitations & Future Work**
