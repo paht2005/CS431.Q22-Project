@@ -56,11 +56,10 @@ YOLO-World weights) are hosted **outside Git** to keep the repository under GitH
 | No. | Student ID | Full Name        | Role   | Github                                                   | Email                   |
 |----:|:----------:|------------------|--------|----------------------------------------------------------|-------------------------|
 | 1   | 23521143   | Nguyen Cong Phat | Leader | [paht2005](https://github.com/paht2005) (primary account), [phatcnguyenKMS](https://github.com/phatcnguyenKMS) (secondary account)| 23521143@gm.uit.edu.vn |
-| 2   | 23521168   | Nguyen Le Phong  | Member | [nguyenlephong](https://github.com/nguyenlephong)        | 23521168@gm.uit.edu.vn |
+| 2   | 23521168   | Nguyen Le Phong  | Member | [kllp031](https://github.com/kllp031)                     | 23521168@gm.uit.edu.vn |
 | 3   | 23520213   | Vu Viet Cuong    | Member | [Kun05-AI](https://github.com/Kun05-AI)                  | 23520213@gm.uit.edu.vn |
 
-Per-member responsibilities and the agreed contribution split are tracked in
-[`docs/CONTRIBUTIONS.md`](docs/CONTRIBUTIONS.md).
+
 
 > **About this project.** This repository is the team's own re-implementation
 > of the ECCV 2024 **VA-Count** paper, extended with two independent additions
