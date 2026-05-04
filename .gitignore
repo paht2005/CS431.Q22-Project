@@ -75,22 +75,23 @@ code/source-code/data/FSC147/
 experiments/**/data/FSC147/
 
 # LaTeX build artefacts (keep main.tex, references.bib, figures/, Report.pdf)
-docs/report/*.aux
-docs/report/*.log
-docs/report/*.out
-docs/report/*.toc
-docs/report/*.lof
-docs/report/*.lot
-docs/report/*.bbl
-docs/report/*.blg
-docs/report/*.synctex.gz
-docs/report/*.fdb_latexmk
-docs/report/*.fls
-docs/report/_minted-*/
-docs/report/*.nav
-docs/report/*.snm
-docs/report/*.vrb
-docs/references/
+docs/report/*
+docs/slide/*
+docs/references/*
+
+!docs/report/README.md
+!docs/report/*.pdf
+!docs/report/*.tex
+!docs/report/references.bib
+!docs/report/figures/
+!docs/report/figures/**
+
+!docs/slide/README.md
+!docs/slide/*.pdf
+!docs/slide/*.tex
+
+
+
 
 # Drafts amd misc notes (never tracked)
 draft/
